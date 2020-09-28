@@ -5,7 +5,7 @@ $(function(){
         transitionEffect: "fade",
         enableAllSteps: true,
         transitionEffectSpeed: 500,
-        onStepChanging: function (event, currentIndex, newIndex) { 
+        onStepChanging: function (event, currentIndex, newIndex) {
             if ( newIndex === 1 ) {
                 $('.steps ul').addClass('step-2');
             } else {
@@ -24,7 +24,7 @@ $(function(){
                 $('.steps ul').removeClass('step-4');
                 $('.actions ul').removeClass('step-last');
             }
-            return true; 
+            return true;
         },
         labels: {
             finish: "Place Holder",
